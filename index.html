@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ToDoリスト 2回目</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <div class="add-list">
+      <input type="text" placeholder="ToDoを追加">
+      <button id="add-btn">追加</button>
+    </div>
+  
+    <div class="incomplete">
+      <h2>未完了リスト</h2>
+      <ul class="list" id="incomplete-list">
+        <li>
+          <div>
+            <p>test</p>
+            <button>完了</button>
+            <button>削除</button>
+          </div>
+        </li>
+        <li>
+          <div>
+            <p>test2</p>
+            <button>完了</button>
+            <button>削除</button>
+          </div>
+        </li>
+      </ul>
+    </div>
+  
+    <div class="complete">
+      <h2>完了リスト</h2>
+      <ul class="list" id="complete-list">
+        <li>
+          <div>
+            <p>done</p>
+            <button>戻す</button>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+  
+
+  <script src="main.js"></script>
+</body>
+</html>
